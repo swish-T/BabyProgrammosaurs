@@ -4,9 +4,9 @@
 
 #User instructions
 
-print "Enter as many numbers as you like. When you've finished, type DONE to see the count, sum, and average of your set."
 count = None
 total = None
+print "Enter as many numbers as you like. When you've finished, type DONE to see the count, sum, and average of your set."
 while True: 
     # Test for shitty input.
     try: 
@@ -31,7 +31,7 @@ while True:
         total = num
     else :
         total = total + num
-# Just in case the user decides to be a smartass and do the thing before putting numbers in.        
+#Just in case the user decides to be a smartass and do the thing before putting numbers in.        
 if count == None and total == None and num == 'DONE' :
     print "all done, no values entered."
 else :
