@@ -1,10 +1,10 @@
-# BabyProgrammosaurs
-# All of the baby programs that will eventually become programmosaurs come here to grow.
+#BabyProgrammosaurs
+#All of the baby programs that will eventually become programmosaurs come here to grow.
+#Baby program 1: Counts and Averages
 
-# Baby program 1: Counts and Averages
+#User instructions
 
-# User instructions
-print "Enter as many numbers as you like. When you've finished, type 'done' to see the count, sum, and average of your set."
+print "Enter as many numbers as you like. When you've finished, type DONE to see the count, sum, and average of your set."
 count = None
 total = None
 while True: 
@@ -15,7 +15,7 @@ while True:
         
     # Provide cases for loop breaking
     except: 
-        if num == 'done' :  break
+        if num == 'DONE' :  break
         if len(num) < 1 : break
         else : 
              print "Invalid input"
@@ -32,7 +32,7 @@ while True:
     else :
         total = total + num
 # Just in case the user decides to be a smartass and do the thing before putting numbers in.        
-if count == None and total == None and num == 'done' :
+if count == None and total == None and num == 'DONE' :
     print "all done, no values entered."
 else :
     print "all done: ",count,total, total/count
